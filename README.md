@@ -1,2 +1,2 @@
 # watermarkin
-Watermarkin App
+Watermarkin App, me-watermark gambar jadi lebih mudah
