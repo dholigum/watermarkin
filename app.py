@@ -4,7 +4,7 @@ from io import BytesIO
 from PIL import Image, ImageOps
 from pillow_heif import register_heif_opener
 
-class heic_to_img_converter():
+class watermarkin_app():
     
     def __init__(self) -> None:
         register_heif_opener()
@@ -113,4 +113,4 @@ class heic_to_img_converter():
         st.write("Semua gambar sudah di watermark, Yey!")
         
                     
-abc = heic_to_img_converter()
+abc = watermarkin_app()
