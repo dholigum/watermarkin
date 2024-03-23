@@ -10,6 +10,16 @@ class heic_to_img_converter():
         register_heif_opener()
         self.uploaded_files = ""
         self.bytes_data = ""
+        # Setting page layout
+        st.set_page_config(
+            page_title="Watermarkin",  
+            page_icon="🖼", 
+            layout="wide", 
+            initial_sidebar_state="expanded", 
+        )
+        st.title("\tSelamat Datang di Watermarkin")
+        st.caption('Watermarkin, me-watermark gambar jadi lebih mudah')
+
         self.upload_file()     
     
     def upload_file(self):
